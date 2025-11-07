@@ -1,6 +1,6 @@
 
 
-````
+
 # Flux Recovery Guide
 
 A concise, actionable reference for fixing Git or reconciliation issues in your homelab cluster.
