@@ -6,7 +6,7 @@
 },
 "remoteUser": "vscode",
 "containerEnv": {
-"DOTFILES_REPO": "git@github.com:iminierai-gif/dotfiles-public.git",
+"DOTFILES_REPO": "git@github.com:iminierai-aig/dotfiles-public.git",
 "DOTFILES_BRANCH": "main"
 },
 "postCreateCommand": "/bin/bash -lc 'bash .devcontainer/scripts/bootstrap.sh'",
