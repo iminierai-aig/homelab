@@ -40,5 +40,7 @@ spec:
 
         path: /
 
-        tls: []
-
+        tls: 
+          - secretName: grafana-tls-secret
+            hosts:
+              - grs.johnnyminier.com
