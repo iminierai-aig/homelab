@@ -31,4 +31,14 @@ spec:
   values:
     grafana:
       adminPassword: seoncall
+      ingress:
+        enabled: true
+        ingressClassName: traefik
+
+        hosts:
+          - grs.johnnyminier.com
+
+        path: /
+
+        tls: []
 
