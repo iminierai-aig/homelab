@@ -40,6 +40,6 @@ spec:
   decryption:
     provider: sops
     secretRef:
-      name: sopa-age
+      name: sops-age
 
 
