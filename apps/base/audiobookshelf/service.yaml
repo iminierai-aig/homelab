@@ -6,5 +6,5 @@ spec:
   ports:
     - port: 3005
   selector:
-    app: audibookshelf
+    app: audiobookshelf
   type: ClusterIP
