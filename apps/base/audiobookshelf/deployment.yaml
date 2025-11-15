@@ -21,9 +21,6 @@ spec:
       restartPolicy: Always
       containers:
         - name: audiobookshelf
-<<<<<<< HEAD
-          image: ghcr.io/advplyr/audiobookshelf:2.17.2
-=======
           image: ghcr.io/advplyr/audiobookshelf:2.30.0
 
           SecuityContext:
@@ -31,7 +28,6 @@ spec:
             runAsUser: 1000
             runAsGroup: 1000
 
->>>>>>> fb34b7d414287580c282b2d827bc22cf9d71f21a
           envFrom:
             - configMapRef:
                 name: audiobookshelf-configmap
