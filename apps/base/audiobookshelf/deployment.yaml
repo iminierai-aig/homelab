@@ -21,7 +21,7 @@ spec:
       restartPolicy: Always
       containers:
         - name: audiobookshelf
-          image: ghcr.io/advplyr/audiobookshelf:2.30.0
+          image: ghcr.io/advplyr/audiobookshelf:2.35.1
 
           SecuityContext:
             fsGroup: 1000
